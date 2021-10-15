@@ -209,7 +209,7 @@ class EfficientDet(nn.Module):
         # self.conv4 = nn.Conv2d(80, self.num_channels, kernel_size=1, stride=1, padding=0)
         # self.conv5 = nn.Conv2d(192, self.num_channels, kernel_size=1, stride=1, padding=0)
         # self.conv6 = nn.Conv2d(192, self.num_channels, kernel_size=3, stride=2, padding=1)
-
+#         inp 640x640
         fpn_inpsize_lis ={
             0: [40,80,192],
             1:[40,80,192],
